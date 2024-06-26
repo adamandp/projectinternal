@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply font-montserrat;
+}
+
+.costum-input {
+  @apply rounded-[8px] overflow-hidden;
+}
+
+.costum-input .ant-input {
+  @apply shadow-none bg-none border-none flex h-[32px] text-[#9E9E9E];
+}
+
+.costum-input .ant-btn {
+  @apply grid place-items-center bg-none shadow-none border-none h-[32px];
+}
+
+.btnLogin{
+   @apply text-[17px] text-[#4461F2] font-bold relative pb-1 
+}
+
+.btnUnderline{
+  @apply before:absolute before:-bottom-2 before:left-0 before:h-[4px] before:w-2 before:bg-current before:transition-all before:duration-300 before:ease-out hover:before:w-full w-fit 
+}
+
+.btnUnclick{
+  @apply bg-white p-3 rounded-2xl drop-shadow-xl
+}
+
+.btnDefault{
+  @apply bg-[#624DE3] font-bold text-white rounded-[8px] flex justify-center
+}
+
+.ant-input-password .ant-input{
+  @apply bg-[#EAF0F7]
+}

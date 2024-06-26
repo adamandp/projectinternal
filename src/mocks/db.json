@@ -1,0 +1,106 @@
+{
+  "listUser": [
+    {
+      "id": "1",
+      "username": "dam",
+      "password": "dam",
+      "webProxy": []
+    },
+    {
+      "id": "2",
+      "username": "damm",
+      "password": "damm",
+      "webProxy": []
+    },
+    {
+      "id": 3,
+      "username": "heyow",
+      "password": "heyow",
+      "webProxy": []
+    }
+  ],
+  "webProxy": [
+    {
+      "id": "5",
+      "path": "/home/user/p",
+      "dir": "/home/user/pictures",
+      "type": "image",
+      "proxy_pass": "http://localhost:8081",
+      "attribute": "private",
+      "is_auth": false
+    },
+    {
+      "id": "6",
+      "path": "/tmp/testfile.tmp",
+      "dir": "/tmp",
+      "type": "temp",
+      "proxy_pass": "http://localhost:8082",
+      "attribute": "temporary",
+      "is_auth": false
+    },
+    {
+      "id": "7",
+      "path": "/opt/data/data.json",
+      "dir": "/opt/data",
+      "type": "json",
+      "proxy_pass": "http://localhost:8083",
+      "attribute": "system",
+      "is_auth": true
+    },
+    {
+      "id": "8",
+      "path": "/var/log/syslog",
+      "dir": "/var/log",
+      "type": "log",
+      "proxy_pass": "http://localhost:8084",
+      "attribute": "system",
+      "is_auth": false
+    },
+    {
+      "id": "9",
+      "path": "/home/user/videos/movie.mp4",
+      "dir": "/home/user/videos",
+      "type": "video",
+      "proxy_pass": "http://localhost:8085",
+      "attribute": "private",
+      "is_auth": true
+    },
+    {
+      "id": "10",
+      "path": "/home/user/music/song.mp3",
+      "dir": "/home/user/music",
+      "type": "audio",
+      "proxy_pass": "http://localhost:8086",
+      "attribute": "private",
+      "is_auth": true
+    },
+    {
+      "id": "7",
+      "path": "kjahsdahjks",
+      "dir": "",
+      "type": "",
+      "proxy_pass": "",
+      "attribute": "",
+      "is_auth": false
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "webProxy": []
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "password": "admin2"
+    },
+    {
+      "id": 3,
+      "username": "admin3",
+      "password": "admin3",
+      "adminStatus": true
+    }
+  ]
+}
